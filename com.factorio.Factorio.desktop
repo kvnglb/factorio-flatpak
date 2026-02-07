@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Factorio
+Exec=factorio
+Icon=com.factorio.Factorio
+Terminal=false
+Type=Application
+StartupNotify=true
+X-GNOME-UsesNotifications=true
+X-Flatpak=com.factorio.Factorio
