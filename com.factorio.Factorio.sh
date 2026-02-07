@@ -16,7 +16,7 @@ flatpak build builddir install -D com.factorio.Factorio.desktop /app/share/appli
 rm -rf cache
 
 echo +++ Finishing build... +++
-flatpak build-finish --command factorio --socket wayland --device dri --socket pulseaudio --share network --persist data builddir
+flatpak build-finish --command factorio --socket wayland --socket x11 --socket fallback-x11 --device dri --socket pulseaudio --share network --persist data builddir
 
 echo +++ Installing... +++
 flatpak build-export repo builddir
