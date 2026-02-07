@@ -7,4 +7,5 @@ This repo is meant to install factorio as flatpak, as vanilla as possible. So no
 1) run `./com.factorio.Factorio.sh` to install the game as flatpak
 
 # Note
-The last command where the timestamp is changed is needed, because factorio crashes when the files have the timestamp of unixtime 0. The funny part is, only the timestamp for the files in `factorio/data/core/graphics/color_luts` mustn't have unixtime 0; to have it consistent, the whole directory gets `touch`ed.
+1) The last command where the timestamp is changed is needed, because factorio crashes when the files have the timestamp of unixtime 0. The funny part is, only the timestamp for the files in `factorio/data/core/graphics/color_luts` mustn't have unixtime 0; to have it consistent, the whole directory gets `touch`ed.
+1) `factorio.sh` was ~~stolen from~~ inspired by https://github.com/casept/factorio-flatpak
